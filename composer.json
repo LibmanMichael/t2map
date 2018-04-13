@@ -1,0 +1,12 @@
+{
+    "name": "michael/t2map",
+    "authors": [
+        {
+            "name": "Michael Libman",
+            "email": "lcdstudio@yandex.ru"
+        }
+    ],
+    "require": {
+        "ext-mysql": "*"
+    }
+}
