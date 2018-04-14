@@ -1,0 +1,46 @@
+{
+	"regions":{
+		"Moscow":{
+			"Name":"Москва",
+			"Regions":[
+				{"Name":"Москва","Abbr":"MSK"}
+			]
+		},
+		"South":{
+			"Name":"Юг",
+			"Regions":[
+				{"Name":"Волгоград","Abbr":"VG"}
+			]
+		},
+		"BlackSoil":{
+			"Name":"Черноземье",
+			"Regions":[
+				{"Name":"Белгород","Abbr":"BE"},
+				{"Name":"Брянск","Abbr":"BR"},
+				{"Name":"Воронеж","Abbr":"VR"},
+				{"Name":"Курск","Abbr":"KU"},
+				{"Name":"Липецк","Abbr":"LI"},
+				{"Name":"Орел","Abbr":"OR"},
+				{"Name":"Пенза","Abbr":"PZ"},
+				{"Name":"Саранск","Abbr":"SE"},
+				{"Name":"Саратов","Abbr":"SV"},
+				{"Name":"Тамбов","Abbr":"TA"}
+			]
+		}
+	},
+	"retails":{
+		"MB":{
+			"Tele2":{"Name":"Tele2","Icon":"islands#blackIcon"},
+			"T2":{"Name":"Tele2 (план)","Icon":"islands#grayIcon"},
+			"Beeline":{"Name":"Билайн","Icon":"islands#yellowIcon"},
+			"Megafon":{"Name":"Мегафон","Icon":"islands#greenIcon"},
+			"MTS":{"Name":"МТС","Icon":"islands#redIcon"},
+			"Yota":{"Name":"Yota","Icon":"islands#bluekIcon"}
+		},
+		"FS":{
+			"Euroset":{"Name":"Евросеть","Icon":"islands#orangeDotIcon"},
+			"Svyaznoy":{"Name":"Связной","Icon":"islands#violetCircleIconIcon"}
+		}
+	},
+	"extra":{"Working":"Работает","TmpClosed":"Временно закрыта","InConstr":"СМР","OnAgreement":"На согласовании","InDeveloping":"В проработке"}
+}
