@@ -7,6 +7,6 @@
         }
     ],
     "require": {
-        "ext-mysql": "*"
+        "arhitector/yandex": "dev-master"
     }
 }
