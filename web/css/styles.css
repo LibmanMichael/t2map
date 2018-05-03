@@ -95,7 +95,7 @@ header #logo{
 	position:absolute;
 	right:30px;
 	top:20px;
-	background:url(/logo.png) no-repeat;
+	background:url(/css/i/logo.png) no-repeat;
 	width:100px;
 	height:41px;
 }
@@ -119,8 +119,6 @@ header #logo{
 }
 
 #menu{
-	//display:none;
-	//left:-90px;
 	left:20px;
 	width:90px;
 	top:80px;
@@ -240,12 +238,7 @@ header #logo{
 	cursor:pointer;
 }
 
-#card #card_content{
-	//margin:15px;
-}
-
 #card #card_content .location{
-	//float:left;
 	margin:1em 15px;
 }
 

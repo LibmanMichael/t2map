@@ -3,12 +3,11 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script type="text/javascript" src="/js/jquery.js"></script>
-	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-	<script src="/js/pie-chart-clusterer.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="https://yastatic.net/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
 	<script type="text/javascript" src="/js/map.js"></script>
 	<script type="text/javascript" src="/js/scripts.js"></script>
-	<link rel="stylesheet" type="text/css" media="all" href="/css/styles.css" />
+	<link type="text/css" rel="stylesheet"  media="all" href="/css/styles.css" />
 
 	<title>T2Mapping</title>
 </head>
@@ -18,7 +17,6 @@
 	require_once 'headers.php';
 	$db=new db;
 	if (isset($_POST['pwd'])){
-		//echo '<script>console.log("Передан пароль '.$_POST["pwd"].'")</script>';
 		if ($rec=$db->query('SELECT login, role FROM mapping_users WHERE pwd="'.md5($_POST['pwd']).'" LIMIT 1')){
 			if ($rec->num_rows==1){
 				$rec=$rec->fetch_object();
@@ -42,7 +40,6 @@
 	<main>
 		<header>
 			<a href="#" id="logo"></a>
-			<!--<div id="menu_btn"></div>-->
 			<div id="login_btn">
 			<?
 				if (isset($_SESSION['user'])){
