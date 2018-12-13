@@ -10,7 +10,7 @@
 	<script type="text/javascript" src="/js/scripts.js"></script>
 	<link type="text/css" rel="stylesheet"  media="all" href="/css/styles.css" />
 
-	<title>T2Mapping</title>
+	<title>T2Mapping v.2</title>
 </head>
 <body>
 <?
